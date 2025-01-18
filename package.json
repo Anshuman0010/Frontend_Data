@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "postinstall": "npm ci && chmod +x node_modules/.bin/vite"
+    "postinstall": ""
   },
   "dependencies": {
     "@monaco-editor/react": "^4.6.0",
