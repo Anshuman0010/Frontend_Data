@@ -284,7 +284,7 @@ export default function Register() {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:3000/api/send-otp', {
+      const response = await fetch(`${API_URL}/api/send-otp`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
